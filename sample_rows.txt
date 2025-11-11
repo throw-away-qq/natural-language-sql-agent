@@ -1,0 +1,33 @@
+
+-- Sample row from Album:
+{'AlbumId': 1, 'Title': 'For Those About To Rock We Salute You', 'ArtistId': 1}
+
+-- Sample row from Artist:
+{'ArtistId': 1, 'Name': 'AC/DC'}
+
+-- Sample row from Customer:
+{'CustomerId': 1, 'FirstName': 'Luís', 'LastName': 'Gonçalves', 'Company': 'Embraer - Empresa Brasileira de Aeronáutica S.A.', 'Address': 'Av. Brigadeiro Faria Lima, 2170', 'City': 'São José dos Campos', 'State': 'SP', 'Country': 'Brazil', 'PostalCode': '12227-000', 'Phone': '+55 (12) 3923-5555', 'Fax': '+55 (12) 3923-5566', 'Email': 'luisg@embraer.com.br', 'SupportRepId': 3}
+
+-- Sample row from Employee:
+{'EmployeeId': 1, 'LastName': 'Adams', 'FirstName': 'Andrew', 'Title': 'General Manager', 'ReportsTo': None, 'BirthDate': '1962-02-18 00:00:00', 'HireDate': '2002-08-14 00:00:00', 'Address': '11120 Jasper Ave NW', 'City': 'Edmonton', 'State': 'AB', 'Country': 'Canada', 'PostalCode': 'T5K 2N1', 'Phone': '+1 (780) 428-9482', 'Fax': '+1 (780) 428-3457', 'Email': 'andrew@chinookcorp.com'}
+
+-- Sample row from Genre:
+{'GenreId': 1, 'Name': 'Rock'}
+
+-- Sample row from Invoice:
+{'InvoiceId': 1, 'CustomerId': 2, 'InvoiceDate': '2021-01-01 00:00:00', 'BillingAddress': 'Theodor-Heuss-Straße 34', 'BillingCity': 'Stuttgart', 'BillingState': None, 'BillingCountry': 'Germany', 'BillingPostalCode': '70174', 'Total': 1.98}
+
+-- Sample row from InvoiceLine:
+{'InvoiceLineId': 1, 'InvoiceId': 1, 'TrackId': 2, 'UnitPrice': 0.99, 'Quantity': 1}
+
+-- Sample row from MediaType:
+{'MediaTypeId': 1, 'Name': 'MPEG audio file'}
+
+-- Sample row from Playlist:
+{'PlaylistId': 1, 'Name': 'Music'}
+
+-- Sample row from PlaylistTrack:
+{'PlaylistId': 1, 'TrackId': 3402}
+
+-- Sample row from Track:
+{'TrackId': 1, 'Name': 'For Those About To Rock (We Salute You)', 'AlbumId': 1, 'MediaTypeId': 1, 'GenreId': 1, 'Composer': 'Angus Young, Malcolm Young, Brian Johnson', 'Milliseconds': 343719, 'Bytes': 11170334, 'UnitPrice': 0.99}
